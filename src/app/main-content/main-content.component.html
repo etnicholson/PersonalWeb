@@ -1,0 +1,11 @@
+<!-- app.component.html -->
+<div fullpage id="fullpage" [options]="config" (ref)="getRef($event)">
+    <div class="section">
+      <div class="first"><h1>Hello, I'm Erico Nicholson</h1></div>
+      <h4>I'm college gratuated in Applied Science in Technology Development and Management. </h4>
+      <h5>I love the software engineering process and am currently exploring frontend development.        </h5>
+
+    </div>
+    <div class="section" (click)="fullpage_api.moveSectionDown()">Some section2</div>
+    <div class="section" (click)="fullpage_api.moveTo('secondPage', 2)">Some section4</div>
+  </div>

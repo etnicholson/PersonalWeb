@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import '~fullpage.js/dist/fullpage.min.css';
+
+
+html, body { height: 100%; }
+body { 
+  
+  margin: 0; font-family: Anton ,Roboto, "Helvetica Neue", sans-serif; 
+  background-color: grey;
+  color: white;
+}
+
+
+
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
