@@ -2,9 +2,19 @@
 <div fullpage id="fullpage" [options]="config" (ref)="getRef($event)">
     <div class="section">
       <div class="first"><h1>Hello, I'm Erico Nicholson</h1></div>
+      <br>
       <h4>I'm college gratuated in Applied Science in Technology Development and Management. </h4>
-      <h5>I love the software engineering process and am currently exploring frontend development.        </h5>
+      <h5>I love the software engineering process and I'm full stack developer.        </h5>
+      <br>
 
+        <a href="https://github.com/etnicholson" target="_blank">
+        <fa-icon [icon]="fagithub" size="4x"></fa-icon></a>
+
+
+        <a href="mailto:etnicholson@gmail.com" target="_blank">
+        <fa-icon [icon]="faenvelope" size="4x"></fa-icon></a>
+
+      
     </div>
     <div class="section" (click)="fullpage_api.moveSectionDown()">Some section2</div>
     <div class="section" (click)="fullpage_api.moveTo('secondPage', 2)">Some section4</div>

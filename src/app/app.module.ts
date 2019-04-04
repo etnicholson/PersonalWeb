@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AngularFullpageModule } from '@fullpage/angular-fullpage';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 
 
 import { AppComponent } from './app.component';
@@ -17,7 +19,8 @@ import { MainContentComponent } from './main-content/main-content.component';
       BrowserModule,
       BrowserAnimationsModule,
       MaterialModule,
-      AngularFullpageModule
+      AngularFullpageModule,
+      FontAwesomeModule
    ],
    providers: [],
    bootstrap: [

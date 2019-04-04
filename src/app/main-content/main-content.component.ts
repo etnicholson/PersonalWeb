@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-main-content',
   templateUrl: './main-content.component.html',
@@ -8,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class MainContentComponent implements OnInit {
     config: any;
     fullpage_api: any;
+    fagithub = faGithub;
+    faenvelope = faEnvelope;
 
     constructor() {
 
